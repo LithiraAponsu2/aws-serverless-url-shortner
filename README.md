@@ -3,9 +3,9 @@
 
 This project demonstrates how to build a serverless URL shortener application using AWS services like AWS Lambda, API Gateway, DynamoDB, and optionally S3 for hosting a static frontend.
 
-![image](https://github.com/LithiraAponsu2/aws-serverless-url-shortner/assets/95391677/3aa8e65b-6c17-4fd4-ba76-565fc6442023)
+![image](https://github.com/LithiraAponsu2/aws-serverless-url-shortner/assets/95391677/0d1f1769-228c-4b6b-848c-3ab90a43c87f)
 
-![image](https://github.com/LithiraAponsu2/aws-serverless-url-shortner/assets/95391677/3f2eaec6-3591-4b9c-9e48-dffe87be94e1)
+![image](https://github.com/LithiraAponsu2/aws-serverless-url-shortner/assets/95391677/a8d8f111-1061-4d5b-b35a-4ff7287bfe63)
 
 ## Prerequisites
 
