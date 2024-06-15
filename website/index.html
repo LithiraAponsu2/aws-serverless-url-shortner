@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ShortLink - URL Shortener</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>Short<span>Link</span></h1>
+    <p class="subtitle">Shorten your links, expand your reach.</p>
+    <div class="input-group">
+      <input type="text" id="longUrl" placeholder="Enter your long URL here">
+      <button onclick="shortenUrl()">Shorten</button>
+    </div>
+    <div id="result">
+      <div id="shortenedUrl"></div>
+      <button id="copyButton" onclick="copyToClipboard()" style="display: none;">Copy</button>
+    </div>
+
+    <div class="tech-stack">
+      <h2>Powered by</h2>
+      <div class="tech-logos">
+        <div class="logo-item" title="Amazon Web Services">
+          <img src="images/aws-logo.svg" alt="AWS">
+          <p>AWS</p>
+        </div>
+        <div class="logo-item" title="AWS Lambda">
+          <img src="images/lambda-logo.svg" alt="AWS Lambda">
+          <p>AWS Lambda</p>
+        </div>
+        <div class="logo-item" title="Amazon API Gateway">
+          <img src="images/api-gateway-logo.svg" alt="Amazon API Gateway">
+          <p>Amazon API Gateway</p>
+        </div>
+        <div class="logo-item" title="Amazon DynamoDB">
+          <img src="images/dynamodb-logo.svg" alt="Amazon DynamoDB">
+          <p>Amazon DynamoDB</p>
+        </div>
+        <div class="logo-item" title="Amazon S3">
+          <img src="images/s3-logo.svg" alt="Amazon S3">
+          <p>Amazon S3</p>
+        </div>
+        <div class="logo-item" title="Amazon IAM">
+          <img src="images/ec2-logo.svg" alt="Amazon EC2">
+          <p>Amazon IAM</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

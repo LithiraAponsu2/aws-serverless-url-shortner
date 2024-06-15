@@ -1,0 +1,233 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  background-color: #1a1a2e;
+  color: #ffffff;
+}
+
+/* .container {
+  text-align: center;
+  background-color: #16213e;
+  padding: 3rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+  width: 100%;
+  max-width: 500px;
+} */
+
+.container {
+  text-align: center;
+  background-color: #16213e;
+  padding: 3rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+  max-width: 100%;
+  overflow: hidden;
+  /* Ensure logos do not exceed container width */
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+  color: #e94560;
+}
+
+h1 span {
+  color: #ffb4ec;
+}
+
+.subtitle {
+  font-size: 1rem;
+  color: #a2a2a2;
+  margin-bottom: 2rem;
+}
+
+.input-group {
+  display: flex;
+  margin-bottom: 1.5rem;
+}
+
+input {
+  flex-grow: 1;
+  padding: 12px 20px;
+  border: none;
+  background-color: #0f3460;
+  color: #ffffff;
+  border-radius: 5px 0 0 5px;
+  font-size: 1rem;
+}
+
+input::placeholder {
+  color: #a2a2a2;
+}
+
+button {
+  background-color: #e94560;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 5px;
+  /* Rounded corners on all sides */
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #d63651;
+}
+
+#result {
+  background-color: #0f3460;
+  border-radius: 5px;
+  padding: 1.5rem;
+  word-break: break-all;
+}
+
+#result a {
+  color: #e94560;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+#result a:hover {
+  text-decoration: underline;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in {
+  animation: fadeIn 0.5s ease-out;
+}
+
+.tech-stack {
+  margin-top: 3rem;
+  padding-top: 2rem;
+  border-top: 1px solid #2a2a4a;
+}
+
+.tech-stack h2 {
+  font-size: 1.5rem;
+  color: #a2a2a2;
+  margin-bottom: 2rem;
+}
+
+.tech-logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.logo-item {
+  width: 120px;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 50%;
+  padding: 1rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.logo-item:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.logo-item img {
+  max-width: 60%;
+  max-height: 60%;
+  object-fit: contain;
+}
+
+.logo-item p {
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  color: #0f3460;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.logo-item {
+  animation: fadeInUp 0.6s ease-out forwards;
+  opacity: 0;
+}
+
+.logo-item:nth-child(1) {
+  animation-delay: 0.1s;
+}
+
+.logo-item:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+.logo-item:nth-child(3) {
+  animation-delay: 0.3s;
+}
+
+.logo-item:nth-child(4) {
+  animation-delay: 0.4s;
+}
+
+.logo-item:nth-child(5) {
+  animation-delay: 0.5s;
+}
+
+.logo-item:nth-child(6) {
+  animation-delay: 0.6s;
+}
+
+/* Add this style for the copy button */
+#copyButton {
+  display: block;
+  margin-top: 10px;
+  /* Adjust as needed */
+  padding: 8px 16px;
+  border: none;
+  background-color: #e94560;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin: 0 auto;
+  /* Center horizontally */
+  text-align: center;
+  /* Center text */
+}
+
+#copyButton:hover {
+  background-color: #d63651;
+}
